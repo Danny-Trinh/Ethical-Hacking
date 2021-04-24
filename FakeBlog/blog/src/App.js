@@ -60,7 +60,7 @@ function App() {
               src="https://i.guim.co.uk/img/media/c26ced2bb6cbf1e770623712c0b02e1a5b024edd/0_0_4728_2837/master/4728.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=697e097424a84242cb3fc787a77d38b5"
             ></img>
             <h2>Mitchell Watkins</h2>
-            <p>My email is regthephish@gmail.com</p>
+            <p>My email is mawatkins99@yahoo.com</p>
             <p>
               <button className="btn btn-secondary">View details »</button>
             </p>
