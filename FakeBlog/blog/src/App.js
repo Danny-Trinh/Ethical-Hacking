@@ -15,7 +15,7 @@ function App() {
               width="140"
               height="140"
               alt="danny pic"
-              src="https://miro.medium.com/max/1800/1*DNs5M8noio5r3_E6DB5Mfg.jpeg"
+              src="https://i.pinimg.com/474x/99/97/9e/99979e5146ad57a12a11d3ff3d195aac.jpg"
             ></img>
             <h2>Danny Trinh</h2>
             <p>My email is trinh644@gmail.com</p>
@@ -29,7 +29,7 @@ function App() {
               width="140"
               height="140"
               alt="regina pic"
-              src="https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/SpongeBob_SquarePants_character.svg/1200px-SpongeBob_SquarePants_character.svg.png"
+              src="https://www.goldfishfun.com/wp-content/uploads/2018/06/gff-swimmington.png"
             ></img>
             <h2>Charles Cao</h2>
             <p>My email is doomseeker12345@gmail.com</p>
@@ -43,7 +43,7 @@ function App() {
               width="140"
               height="140"
               alt="regina pic"
-              src="https://upload.wikimedia.org/wikipedia/en/7/78/Bilbo_Baggins.jpg"
+              src="https://www.goldfishfun.com/wp-content/uploads/2018/06/gff-brooke.png"
             ></img>
             <h2>Regina Chen</h2>
             <p>My email is regthephish@gmail.com</p>

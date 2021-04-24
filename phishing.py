@@ -10,15 +10,12 @@ server = smtplib.SMTP("smtp.gmail.com", 587)
 server.starttls()
 server.login(sender, password)
 
-message = EmailMessage()
-
-message.set_content("""
+message = """
 Congratulations! We've successfully created account.
 Go to the page: https://www.google.com/search?q=clown
 Best Regards ^-^ UwU O_o AWA AWA .<.,
 GoPhish Team.
-""")
-message['Subject'] = 'Go Phishing'
+"""
 
 targetEmails = open("emailList")
 
